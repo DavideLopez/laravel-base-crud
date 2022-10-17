@@ -6,7 +6,7 @@
 <section class="main__content">
   <div class="hero">
     <a href="{{ route('comics.create') }}">
-      <button id="btn__current">add comic</button>
+      <button id="btn__current">Add new Comic</button>
     </a>
   </div>
   <div class="container container__card">
@@ -20,7 +20,7 @@
     @endforeach
   </div>
   <div class="main__button container">
-    <button id="load__button"><a href="#">load more</a></button>
+    <button id="load__button"><a href="#">Load More</a></button>
   </div>
 </section>
 @endsection

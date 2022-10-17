@@ -12,7 +12,7 @@
             'text' => 'Movies',
           ],
           [
-            'text' => 'Tv',
+            'text' => 'TV',
           ],
           [
             'text' => 'Games',
@@ -26,10 +26,10 @@
       ];
       $links2 = [
           [
-            'text' => 'Shop Dc',
+            'text' => 'Shop DC',
           ],
           [
-            'text' => 'Shop Dc Collectibles',
+            'text' => 'Shop DC Collectibles',
           ]
       ];
       $links3 = [
@@ -69,13 +69,13 @@
       ];
       $links4 = [
           [
-            'text' => 'Dc',
+            'text' => 'DC',
           ],
           [
             'text' => 'AD Magazine',
           ],
           [
-            'text' => 'Dc Kids',
+            'text' => 'DC Kids',
           ],
           [
             'text' => 'DC Universe',
@@ -139,7 +139,7 @@
             <div>
               <div class="footer__links">
                 <h3>
-                  Dc Comics
+                  DC Comics
                 </h3>
                 <ul>
                   @foreach ($links1 as $link)
@@ -165,7 +165,7 @@
             <div>
               <div class="footer__links">
                 <h3>
-                  Dc
+                  DC
                 </h3>
                 <ul>
                   @foreach ($links3 as $link)
@@ -197,10 +197,10 @@
       <section class="footer__third__section">
         <div class="container">
           <div class="sign__up__button">
-            <a href="#">sign-up now</a>
+            <a href="#">SIGN-UP NOW</a>
           </div>
           <div class="footer__media">
-            <span>follow us</span>
+            <span>FOLLOW US</span>
             <div class="footer__icon">
               @foreach ($icons as $icon)
                 <a href="#">
